@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" /> -->
+    <title>Julia Table</title>
+    <link rel="stylesheet" type="text/css" href="./libs/vue-vxe/index.css">
+    <link rel="stylesheet" type="text/css" href="./libs/vue-vxe/style.min.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <script src="./libs/vue-vxe/vue.js"></script>
+    <script src="./libs/vue-vxe/xe-utils.js"></script>
+    <script src="./libs/vue-vxe/vxe-table.js"></script>
+    <script src="./libs/vue-vxe/index.common.js"></script>
+    <script>
+      
+    </script>
+    <div id="app" class="container-fluid">
+
+        <div style="height: 100%;">
+
+        <vxe-virtual-tree show-overflow row-key row-id="id" :data="tableData" :tree-config="{children: 'children'}"
+            :columns="tableColumn">
+        </vxe-virtual-tree>
+        </div>
+    </div>
+    <script type="application/javascript" src="./test.js"></script>
+</body>
+
+</html>
