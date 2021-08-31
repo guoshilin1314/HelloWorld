@@ -2,7 +2,7 @@
 	"name": "helloworld-sample",
 	"displayName": "helloworld-sample",
 	"description": "HelloWorld example for VS Code",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"publisher": "guosl",
 	"repository": {
 		"type": "git",
